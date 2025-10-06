@@ -20,11 +20,11 @@ public class GuessNumber {
             System.out.println("\nЯ загадал число от 1 до " + range + "!");
             System.out.println("У вас есть " + maxAttempts + " попыток. Удачи!");
 
-            // Цикл попыток угадывания
+
             while (attempts < maxAttempts) {
                 System.out.print("Введите вашу догадку: ");
 
-                // Обрабатываем некорректный ввод
+
                 if (!scanner.hasNextInt()) {
                     System.out.println("Пожалуйста, введите целое число!");
                     scanner.next();
@@ -65,7 +65,7 @@ public class GuessNumber {
                 break;
             }
 
-            System.out.print("ЗАД 3 ");
+            int i = 0;
         }
         scanner.close();
     }
