@@ -8,8 +8,8 @@ public class GuessNumber {
         Random random = new Random();
 
         // Настройки игры
-        int maxAttempts = 5; // Максимальное количество попыток
-        int range = 100;     // Компьютер загадывает число от 1 до range
+        int maxAttempts = 3; // Максимальное количество попыток
+        int range = 50;     // Компьютер загадывает число от 1 до range
 
         // Главный цикл игры
         while (true) {
