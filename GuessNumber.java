@@ -53,6 +53,8 @@ public class GuessNumber {
                 System.out.println("Увы! Вы исчерпали все попытки. Загаданное число было: " + secretNumber);
             }
 
+            System.out.print("Приветушки ");
+
             // Предложение сыграть еще раз
             System.out.print("Хотите сыграть еще раз? (да/нет): ");
             String playAgain = scanner.next();
