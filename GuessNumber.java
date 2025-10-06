@@ -48,12 +48,13 @@ public class GuessNumber {
                 System.out.println("Осталось попыток: " + (maxAttempts - attempts));
             }
 
+            System.out.print("KFKFKFKF ");
             // Сообщение если закончились попытки
             if (attempts == maxAttempts) {
                 System.out.println("Увы! Вы исчерпали все попытки. Загаданное число было: " + secretNumber);
             }
 
-            System.out.print("KFKFKFKF ");
+
 
             System.out.print("Приветушки ");
 
@@ -61,8 +62,9 @@ public class GuessNumber {
             System.out.print("Хотите сыграть еще раз? (да/нет): ");
             String playAgain = scanner.next();
             if (!playAgain.equalsIgnoreCase("да")) {
-                System.out.println("Спасибо за игру! До свидания!");
+                System.out.println("Спасибо большое за игру! До свидания!");
                 break;
+
             }
 
             int i = 0;
