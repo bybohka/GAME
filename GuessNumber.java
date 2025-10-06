@@ -64,6 +64,8 @@ public class GuessNumber {
                 System.out.println("Спасибо за игру! До свидания!");
                 break;
             }
+
+            System.out.print("ЗАД 3 ");
         }
         scanner.close();
     }
