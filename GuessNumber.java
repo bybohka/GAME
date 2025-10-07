@@ -58,6 +58,10 @@ public class GuessNumber {
 
             System.out.print("Приветушки ");
 
+            System.out.print("KFKFKFKF ");
+
+            System.out.print("Приветушки ");
+
             // Предложение сыграть еще раз
             System.out.print("Хотите сыграть еще раз? (да/нет): ");
             String playAgain = scanner.next();
